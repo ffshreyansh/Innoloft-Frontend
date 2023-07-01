@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-      
+
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
-                
+
                 <div className="py-6">
                   <a
                     href="#"
@@ -51,17 +51,17 @@ export default function Home() {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-     
+
         <div className="mx-auto max-w-2xl py-32 sm:pb-48 lg:pb-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          
+
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Hi, I am <a href="https://shreyanshkr.com" target='_blank' className='text-mainColor'>Shreyansh</a>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-             It was fun working on this task, I would really love to join the team and explore the opportunities. Thanks for this! 
+              It was fun working on this task, I would really love to join the team and explore the opportunities. Thanks for this!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -70,11 +70,11 @@ export default function Home() {
               >
                 Go to Product Page
               </a>
-              
+
             </div>
           </div>
         </div>
-      
+
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
-"use client";
 import Navbar from '@/components/Navbar';
 import './globals.css'
+
 export const metadata = {
   title: 'InnoLoft-Task',
   description: 'Created By Shreyansh',
@@ -12,10 +12,6 @@ const RootLayout = ({ children }) => (
      </head>
     <body>
       
-        <div className='main'>
-          <div className='gradient' />
-        </div>
-
         <main className='app'>
         <Navbar/>
            {children}

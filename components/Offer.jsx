@@ -74,14 +74,9 @@ const Offer = () => {
           </div>
           <div className="flex flex-wrap ml-6">
           
-                <p className="py-1 px-4 break-words  text-sm bg-slate-200 rounded-full m-1 sm:w-auto sm:flex-grow-0 sm:flex-shrink-0 sm:whitespace-nowrap"
-                  
-                >
-                  TRL 9 – Actual system proven in operational <br/> environment (established product available)
-                </p>
-            
+                <p className="py-1 px-4 break-words  text-sm bg-slate-200 rounded-full m-1 sm:w-auto sm:flex-grow-0 sm:flex-shrink-0 sm:whitespace-nowrap">
+                  TRL 9 – Actual system proven in operational <br/> environment (established product available)</p>
           </div>
-
         </div>
         </div>
         <div class=" h-32">
